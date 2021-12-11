@@ -125,37 +125,37 @@ function play(col)
 function gridStruct(m,p){
     let row = document.getElementById("row"+ m);
     if(grid[m][p] == ""){
-        row.innerHTML += "<img src=\"Assets/empty.png\" class=\"classGrid\">";
+        row.innerHTML += "<img src=\"empty.png\" class=\"classGrid\">";
     }
     else if(grid[m][p] == "*"){
-        row.innerHTML += "<img src=\"Assets/Red.png\"class=\"classGrid\">";
+        row.innerHTML += "<img src=\"Red.png\"class=\"classGrid\">";
     }
     else if(grid[m][p] == "#"){
-        row.innerHTML += "<img src=\"Assets/yellow.png\"class=\"classGrid\">";
+        row.innerHTML += "<img src=\"yellow.png\"class=\"classGrid\">";
     }
     else if(grid[m][p] == "rv"){
-        row.innerHTML += "<img src=\"Assets/RedV.png\"class=\"classGrid\">"
+        row.innerHTML += "<img src=\"RedV.png\"class=\"classGrid\">"
     }
     else if(grid[m][p] == "yv"){
-        row.innerHTML += "<img src=\"Assets/YellowV.png\"class=\"classGrid\">"
+        row.innerHTML += "<img src=\"YellowV.png\"class=\"classGrid\">"
     }
     else if(grid[m][p] == "rh"){
-        row.innerHTML += "<img src=\"Assets/RedH.png\"class=\"classGrid\">"
+        row.innerHTML += "<img src=\"RedH.png\"class=\"classGrid\">"
     }
     else if(grid[m][p] == "yh"){
-        row.innerHTML += "<img src=\"Assets/YellowH.png\"class=\"classGrid\">"
+        row.innerHTML += "<img src=\"YellowH.png\"class=\"classGrid\">"
     }
     else if(grid[m][p] == "rdu"){
-        row.innerHTML += "<img src=\"Assets/RedDUp.png\"class=\"classGrid\">"
+        row.innerHTML += "<img src=\"RedDUp.png\"class=\"classGrid\">"
     }
     else if(grid[m][p] == "ydu"){
-        row.innerHTML += "<img src=\"Assets/YellowDUp.png\"class=\"classGrid\">"
+        row.innerHTML += "<img src=\"YellowDUp.png\"class=\"classGrid\">"
     }
     else if(grid[m][p] == "rdd"){
-        row.innerHTML += "<img src=\"Assets/RedDDown.png\"class=\"classGrid\">"
+        row.innerHTML += "<img src=\"RedDDown.png\"class=\"classGrid\">"
     }
     else if(grid[m][p] == "ydd"){
-        row.innerHTML += "<img src=\"Assets/YellowDDown.png\"class=\"classGrid\">"
+        row.innerHTML += "<img src=\"YellowDDown.png\"class=\"classGrid\">"
     }
     
 }
@@ -166,9 +166,9 @@ function gridDestruct(m,p){
 function displayFleshs(f){
     let flesh = document.getElementById("flesh");
     if(currentPlayer == 1){
-        flesh.innerHTML += "<img class=\"classGrid\" src=\"Assets/RedFlesh.png\" onclick=\"setColumn"+f+"(); gameplay(); displ()\"></img>";
+        flesh.innerHTML += "<img class=\"classGrid\" src=\"RedFlesh.png\" onclick=\"setColumn"+f+"(); gameplay(); displ()\"></img>";
     }else{
-        flesh.innerHTML += "<img class=\"classGrid\" src=\"Assets/YellowFlesh.png\" onclick=\"setColumn"+f+"(); gameplay(); displ()\"></img>";
+        flesh.innerHTML += "<img class=\"classGrid\" src=\"YellowFlesh.png\" onclick=\"setColumn"+f+"(); gameplay(); displ()\"></img>";
     }
 }
 function destructFleshs(){
@@ -208,23 +208,23 @@ function setColumn6(){column = 6;}
 function gameplay(){
     let ply = play(column);
     if(ply == "Player 1 has a turn" || ply == "Player 2 has a turn" ){
-        audio('audio/flesh.wav');
+        audio('flesh.wav');
     }
     if(ply == "Player 1 wins!"){
-        audio('audio/win.wav');
-       document.getElementById("state").innerHTML = "<img src=\"Assets/circleRedWin.png\" id=\"Win\">" + "<span> Winner!!</span>" + "<img src=\"Assets/redWin.gif\" id=\"win\"></img>" ;
+        audio('win.wav');
+       document.getElementById("state").innerHTML = "<img src=\"circleRedWin.png\" id=\"Win\">" + "<span> Winner!!</span>" + "<img src=\"redWin.gif\" id=\"win\"></img>" ;
         
     }
     else if(ply == "Player 2 wins!"){
-        audio('audio/win.wav');
-        document.getElementById("state").innerHTML = " <img src=\"Assets/circleYellowWin.png\" id=\"Win\">" + "<span> Winner!!</span>"+ "<img src=\"Assets/yellowWin.gif\" id=\"win\"></img>";
+        audio('win.wav');
+        document.getElementById("state").innerHTML = " <img src=\"circleYellowWin.png\" id=\"Win\">" + "<span> Winner!!</span>"+ "<img src=\"yellowWin.gif\" id=\"win\"></img>";
     }
     else if(ply == "Column full!"){
-        audio('audio/full.wav');
-        document.getElementById("state").innerHTML = " <img src=\"Assets/full.png\" id=\"full\">"
+        audio('full.wav');
+        document.getElementById("state").innerHTML = " <img src=\"full.png\" id=\"full\">"
     }
     else if(ply == "Game has finished!"){
-        audio('audio/end.wav');
+        audio('end.wav');
         document.getElementById("state").innerHTML = "<span> Game has finished!</span>"
     }else
     {
@@ -241,7 +241,7 @@ function loadGame(){
                     "<div id=\"row3\" class=\"grid\"></div>\n"+
                     "<div id=\"row4\" class=\"grid\"></div>\n"+
                     "<div id=\"row5\" class=\"grid\"></div>\n"+
-                    "<button onclick=\"restart(); displ(); audio(\'audio/restart.wav\')\" id=\"restart\">Restart</button>"+
+                    "<button onclick=\"restart(); displ(); audio(\'restart.wav\')\" id=\"restart\">Restart</button>"+
                     "<div id=\"state\" ></div>\n"+
                     "<script src=\"Game.js\"></script>\n";
     
@@ -343,9 +343,7 @@ function audio(t){
 
 var myWindow;
 
-function openWin() {
-  
-}
+
 
 function resizeWin() {
     myWindow = window.open("Connect4.html", "", "width=900, height=720,resizable=0");
