@@ -1,0 +1,364 @@
+ffmpeg version 2021-12-09-git-b9f4c1231f-essentials_build-www.gyan.dev Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 11.2.0 (Rev2, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      57. 10.101 / 57. 10.101
+  libavcodec     59. 14.100 / 59. 14.100
+  libavformat    59.  9.102 / 59.  9.102
+  libavdevice    59.  0.101 / 59.  0.101
+  libavfilter     8. 19.100 /  8. 19.100
+  libswscale      6.  1.101 /  6.  1.101
+  libswresample   4.  0.100 /  4.  0.100
+  libpostproc    56.  0.100 / 56.  0.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/eddari/AppData/Local/Temp/KritaFFmpegProgress.TtFNkQ'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/eddari/Desktop/projects/Connect4/Assets/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/eddari/Desktop/projects/Connect4/Assets/redWin.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/eddari/AppData/Local/Temp/KritaFFmpegProgress.TtFNkQ.
+[file @ 00000183f0bbba80] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/eddari/Desktop/projects/Connect4/Assets/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/eddari/Desktop/projects/Connect4/Assets/frame%04d.png.
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0000.png' for reading
+[file @ 00000183f0bff340] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c07500] Statistics: 36715 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0001.png' for reading
+[file @ 00000183f0c107c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c10940] Statistics: 36715 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0002.png' for reading
+[file @ 00000183f0c10880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c10b80] Statistics: 37203 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0003.png' for reading
+[file @ 00000183f0c10b80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c10d80] Statistics: 43616 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0004.png' for reading
+[file @ 00000183f0c10d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c10f40] Statistics: 55189 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0005.png' for reading
+[file @ 00000183f0c10f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11140] Statistics: 81524 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0006.png' for reading
+[file @ 00000183f0c11140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11300] Statistics: 114968 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0007.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 144053 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0008.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 171361 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0009.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 210373 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0010.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 230151 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0011.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 256221 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0012.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 282724 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0013.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 339591 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0014.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 416100 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0015.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 474036 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0016.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 522293 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0017.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 533803 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0018.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 587114 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0019.png' for reading
+[file @ 00000183f0c11300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c11500] Statistics: 605263 bytes read, 0 seeks
+[image2 @ 00000183f0bfc100] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame%04d.png':
+  Duration: 00:00:02.44, start: 0.000000, bitrate: N/A
+  Stream #0:0, 20, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 3937:3937 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn
+Successfully opened the file.
+Parsing a group of options: input url C:/Users/eddari/Desktop/projects/Connect4/Assets/palette.png.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/eddari/Desktop/projects/Connect4/Assets/palette.png.
+[NULL @ 00000183f0c064c0] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/palette.png' for reading
+[file @ 00000183f0bfbfc0] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 00000183f0c064c0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 00000183f0c064c0] Before avformat_find_stream_info() pos: 0 bytes read:973 seeks:0 nb_streams:1
+[png_pipe @ 00000183f0c064c0] After avformat_find_stream_info() pos: 973 bytes read:973 seeks:0 frames:1
+Input #1, png_pipe, from 'C:/Users/eddari/Desktop/projects/Connect4/Assets/palette.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn
+Successfully opened the file.
+Parsing a group of options: output url C:/Users/eddari/Desktop/projects/Connect4/Assets/redWin.gif.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/eddari/Desktop/projects/Connect4/Assets/redWin.gif.
+[file @ 00000183f0c81700] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 4 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 1 times
+[image2 @ 00000183f0bfc100] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 4 times
+[graph 0 input from stream 0:0 @ 00000183f1ce3500] Setting 'video_size' to value '1920x1080'
+[graph 0 input from stream 0:0 @ 00000183f1ce3500] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 00000183f1ce3500] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 00000183f1ce3500] Setting 'pixel_aspect' to value '3937/3937'
+[graph 0 input from stream 0:0 @ 00000183f1ce3500] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 00000183f1ce3500] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:3937/3937
+[graph 0 input from stream 1:0 @ 00000183f1ce47c0] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 00000183f1ce47c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 00000183f1ce47c0] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 00000183f1ce47c0] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 00000183f1ce47c0] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 00000183f1ce47c0] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 00000183f1ce3780] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scale_0 @ 00000183f1ce3b80] w:iw h:ih flags:'' interl:0
+[Parsed_paletteuse_0 @ 00000183ef577dc0] auto-inserting filter 'auto_scale_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scale_1 @ 00000183f1ce3e80] w:iw h:ih flags:'' interl:0
+[Parsed_paletteuse_0 @ 00000183ef577dc0] auto-inserting filter 'auto_scale_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 00000183f0c1ec80] query_formats: 5 queried, 4 merged, 2 already done, 0 delayed
+[swscaler @ 00000183f1cf7480] [swscaler @ 00000183f1d07500] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000183f1cf7480] [swscaler @ 00000183f1d26d40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000183f1cf7480] [swscaler @ 00000183f1d52500] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000183f1cf7480] [swscaler @ 00000183f1d7c600] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000183f1cf7480] [swscaler @ 00000183f1dada00] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_0 @ 00000183f1ce3b80] w:1920 h:1080 fmt:rgba sar:3937/3937 -> w:1920 h:1080 fmt:bgra sar:1/1 flags:0x0
+[swscaler @ 00000183f1dcd600] [swscaler @ 00000183f4e01200] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000183f1dcd600] [swscaler @ 00000183f4e0e1c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000183f1dcd600] [swscaler @ 00000183f4e21200] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000183f1dcd600] [swscaler @ 00000183f4e34200] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000183f1dcd600] [swscaler @ 00000183f4e47240] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_1 @ 00000183f1ce3e80] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x0
+[Parsed_paletteuse_0 @ 00000183ef577dc0] [framesync @ 00000183f3ddc088] Selected 1/600 time base
+[Parsed_paletteuse_0 @ 00000183ef577dc0] [framesync @ 00000183f3ddc088] Sync level 2
+Output #0, gif, to 'C:/Users/eddari/Desktop/projects/Connect4/Assets/redWin.gif':
+  Metadata:
+    encoder         : Lavf59.9.102
+  Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8(pc, gbr/unknown/unknown, progressive), 1920x1080 (0x0) [SAR 1:1 DAR 16:9], 0/1, q=2-31, 200 kb/s, 24 fps, 100 tbn
+    Metadata:
+      encoder         : Lavc59.14.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 00000183f19e9240] 1x1 image at pos (1919;1079) [area:1920x1080]
+frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.664x    [gif @ 00000183f19e9240] 1x1 image at pos (1919;1079) [area:1920x1080]
+[gif @ 00000183f19e9240] 20x5 image at pos (1062;0) [area:1920x1080]
+[gif @ 00000183f19e9240] 98x46 image at pos (1018;0) [area:1920x1080]
+[gif @ 00000183f19e9240] 571x97 image at pos (564;0) [area:1920x1080]
+[gif @ 00000183f19e9240] 745x158 image at pos (515;0) [area:1920x1080]
+[gif @ 00000183f19e9240] 791x230 image at pos (502;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0020.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f0c10900] Statistics: 704227 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 813x313 image at pos (489;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0021.png' for reading
+[file @ 00000183f1debec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f510be40] Statistics: 764488 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1274x406 image at pos (476;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0022.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f510c580] Statistics: 765511 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1321x510 image at pos (463;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0023.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f510c280] Statistics: 718770 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1362x625 image at pos (450;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0024.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f510c280] Statistics: 746403 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1749x750 image at pos (92;0) [area:1920x1080]
+frame=   12 fps=0.0 q=-0.0 size=     184kB time=00:00:00.47 bitrate=3213.7kbits/s speed=0.869x    [image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0025.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f510c580] Statistics: 720126 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1869x886 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0026.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f510c700] Statistics: 745861 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1858x1033 image at pos (41;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0027.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f5439240] Statistics: 771076 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1905x1080 image at pos (15;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0028.png' for reading
+[file @ 00000183f1dec180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f5438b00] Statistics: 709107 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0029.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f5439680] Statistics: 565876 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1755x1008 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0030.png' for reading
+[file @ 00000183f1debdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f5438c80] Statistics: 553277 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1776x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0031.png' for reading
+[file @ 00000183f1dec180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f54393c0] Statistics: 528892 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1801x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0032.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f54390c0] Statistics: 536136 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+frame=   20 fps= 19 q=-0.0 size=     768kB time=00:00:00.80 bitrate=7864.3kbits/s speed=0.764x    [image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0033.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43b80] Statistics: 636288 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0034.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43e80] Statistics: 674027 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1041 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0035.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f438c0] Statistics: 703517 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0036.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43a40] Statistics: 669490 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0037.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43a40] Statistics: 612473 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0038.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f442c0] Statistics: 585843 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1765x1080 image at pos (155;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0039.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f44000] Statistics: 545896 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1793x1080 image at pos (127;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0040.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43a40] Statistics: 536791 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1823x1080 image at pos (97;0) [area:1920x1080]
+frame=   28 fps= 17 q=-0.0 size=    2304kB time=00:00:01.14 bitrate=16556.5kbits/s speed=0.708x    [image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0041.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f44140] Statistics: 529552 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1853x1080 image at pos (67;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0042.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f442c0] Statistics: 460102 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1849x1080 image at pos (71;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0043.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43d00] Statistics: 429851 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1805x1080 image at pos (43;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0044.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43e80] Statistics: 313108 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1876x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0045.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f44000] Statistics: 308617 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1905x1063 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0046.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f435c0] Statistics: 273720 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0047.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43a40] Statistics: 142783 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0048.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f44140] Statistics: 158134 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+frame=   36 fps= 17 q=-0.0 size=    3584kB time=00:00:01.47 bitrate=19972.9kbits/s speed=0.69x    [image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0049.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f435c0] Statistics: 163508 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0050.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f442c0] Statistics: 148889 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0051.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f435c0] Statistics: 111545 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0052.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43a40] Statistics: 80519 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0053.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f44140] Statistics: 48168 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0054.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f435c0] Statistics: 36715 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0055.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f442c0] Statistics: 36715 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0056.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43a40] Statistics: 36715 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x1076 image at pos (0;4) [area:1920x1080]
+frame=   44 fps= 17 q=-0.0 size=    4864kB time=00:00:01.80 bitrate=22136.6kbits/s speed=0.68x    [image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0057.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f442c0] Statistics: 36715 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1889x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0058.png' for reading
+[file @ 00000183f1debec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f43d00] Statistics: 36715 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1919x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0059.png' for reading
+[file @ 00000183f1debcc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f435c0] Statistics: 36715 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 1920x954 image at pos (0;126) [area:1920x1080]
+[image2 @ 00000183f0bfc100] Opening 'C:/Users/eddari/Desktop/projects/Connect4/Assets/frame0060.png' for reading
+[file @ 00000183f1dec080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000183f4f435c0] Statistics: 36715 bytes read, 0 seeks
+[gif @ 00000183f19e9240] 749x1080 image at pos (991;0) [area:1920x1080]
+[gif @ 00000183f19e9240] 738x900 image at pos (616;0) [area:1920x1080]
+[gif @ 00000183f19e9240] 754x876 image at pos (608;204) [area:1920x1080]
+[gif @ 00000183f19e9240] 736x694 image at pos (600;386) [area:1920x1080]
+[gif @ 00000183f19e9240] 543x484 image at pos (592;577) [area:1920x1080]
+[gif @ 00000183f19e9240] 269x303 image at pos (583;777) [area:1920x1080]
+[gif @ 00000183f19e9240] 66x93 image at pos (784;987) [area:1920x1080]
+[gif @ 00000183f19e9240] 1x1 image at pos (1919;1079) [area:1920x1080]
+frame=   55 fps= 17 q=-0.0 size=    5120kB time=00:00:02.26 bitrate=18558.9kbits/s speed=0.717x    [gif @ 00000183f19e9240] 1x1 image at pos (1919;1079) [area:1920x1080]
+    Last message repeated 5 times
+[Parsed_paletteuse_0 @ 00000183ef577dc0] [framesync @ 00000183f3ddc088] Sync level 0
+[out_0_0 @ 00000183f1ce3f80] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   61 fps= 18 q=-0.0 Lsize=    5350kB time=00:00:02.51 bitrate=17462.2kbits/s speed=0.738x    
+[AVIOContext @ 00000183f0bfbcc0] Statistics: 1587 bytes written, 0 seeks, 8 writeouts
+video:5350kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000365%
+Input file #0 (C:/Users/eddari/Desktop/projects/Connect4/Assets/frame%04d.png):
+  Input stream #0:0 (video): 61 packets read (22398589 bytes); 61 frames decoded; 
+  Total: 61 packets (22398589 bytes) demuxed
+Input file #1 (C:/Users/eddari/Desktop/projects/Connect4/Assets/palette.png):
+  Input stream #1:0 (video): 1 packets read (973 bytes); 1 frames decoded; 
+  Total: 1 packets (973 bytes) demuxed
+Output file #0 (C:/Users/eddari/Desktop/projects/Connect4/Assets/redWin.gif):
+  Output stream #0:0 (video): 61 frames encoded; 61 packets muxed (5478732 bytes); 
+  Total: 61 packets (5478732 bytes) muxed
+62 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 00000183f1ccbf80] Statistics: 5478752 bytes written, 0 seeks, 21 writeouts
+[AVIOContext @ 00000183f0c11300] Statistics: 973 bytes read, 0 seeks
